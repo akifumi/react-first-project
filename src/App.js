@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import HelloMessage from './components/HelloMessage';
+import Timer from './components/Timer';
 import './App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <HelloMessage name="Tayler" />
+        <Timer />
       </div>
     );
   }
