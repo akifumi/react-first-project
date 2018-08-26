@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import HelloMessage from './components/HelloMessage';
 import Timer from './components/Timer';
 import TodoApp from './components/TodoApp';
+import MarkdownEditor from './components/MarkdownEditor';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         <HelloMessage name="Tayler" />
         <Timer />
         <TodoApp />
+        <MarkdownEditor />
       </div>
     );
   }
