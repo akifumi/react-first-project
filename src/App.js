@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import HelloMessage from './components/HelloMessage';
 import Timer from './components/Timer';
+import TodoApp from './components/TodoApp';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <HelloMessage name="Tayler" />
         <Timer />
+        <TodoApp />
       </div>
     );
   }
